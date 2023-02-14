@@ -26,7 +26,7 @@
     <img src="img\LogoRunner.svg" alt="Logo Runner">
     <div>
       <h1>Bienvenido a nuestra web</h1>
-      <button id="botonVideo">
+      <button id="botonVideo" name="botonVideo">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-square-fill"
           viewBox="0 0 16 16">
           <path
@@ -46,7 +46,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button name="botonClose" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <form class="px-5 py-5">
 
@@ -97,15 +97,15 @@
           </div>
         </form>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Iniciar sesión</button>
+          <button name="botonCloseFooter" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button name="botonInicioSesionFooter" type="button" class="btn btn-primary">Iniciar sesión</button>
         </div>
       </div>
     </div>
   </div>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-black">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+    <button name="botonNavbar" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon bg-white"></span>
     </button>
@@ -114,7 +114,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item px-3">
-            <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <button name="botonExampleModal" type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
               Login
             </button>
           </li>
@@ -129,14 +129,14 @@
           </li>
         </ul>
         <div class="px-3">
-          <button class="btn btn-light" type="button" data-bs-toggle="collapse" href="#collapseExample"
+          <button name="botonCillapse1" class="btn btn-light" type="button" data-bs-toggle="collapse" href="#collapseExample"
             aria-expanded="false" aria-controls="collapseExample">
             <i class="bi bi-search"></i>
           </button>
         </div>
         <div class="collapse" id="collapseExample">
           <input type="text" placeholder="search...">
-          <button type="button" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false"
+          <button name="botonCillapse2" type="button" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false"
             aria-controls="collapseExample">
             <i class="bi bi-x-circle text-black" id="iconoBusc"></i></button>
         </div>
@@ -174,9 +174,9 @@
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
+                      <button name="botonMegusta" type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
                           class="bi bi-heart"></i></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
+                      <button name="botonComentario" type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
                           class="bi bi-chat"></i></button>
                     </div>
                     <small class="text-muted"><i class="bi bi-bar-chart-line"> 200k</i></small>
@@ -197,10 +197,10 @@
                     #femenino.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
-                          class="bi bi-heart"></i></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
-                          class="bi bi-chat"></i></button>
+                      <button name="botonMegusta" type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
+                        class="bi bi-heart"></i></button>
+                    <button name="botonComentario" type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
+                        class="bi bi-chat"></i></button>
                     </div>
                     <small class="text-muted"><i class="bi bi-bar-chart-line"> 2,3M</i></small>
                   </div>
@@ -220,10 +220,10 @@
                     <br><u>Etiquetas:</u> #carrera, #corredores, #agua, #dorsal, #masculino.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
-                          class="bi bi-heart"></i></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
-                          class="bi bi-chat"></i></button>
+                      <button name="botonMegusta" type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
+                        class="bi bi-heart"></i></button>
+                    <button name="botonComentario" type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
+                        class="bi bi-chat"></i></button>
                     </div>
                     <small class="text-muted"><i class="bi bi-bar-chart-line"> 1M</i></small>
                   </div>
@@ -244,10 +244,10 @@
                     <br><u>Etiquetas:</u> #carrera, #corredores, #agua, #masculino.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
-                          class="bi bi-heart"></i></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
-                          class="bi bi-chat"></i></button>
+                      <button name="botonMegusta" type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
+                        class="bi bi-heart"></i></button>
+                    <button name="botonComentario" type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
+                        class="bi bi-chat"></i></button>
                     </div>
                     <small class="text-muted"><i class="bi bi-bar-chart-line"> 700k</i></small>
                   </div>
@@ -267,10 +267,10 @@
                     <br><u>Etiquetas:</u> #carrera, #corredores, #agua, #masculino.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
-                          class="bi bi-heart"></i></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
-                          class="bi bi-chat"></i></button>
+                      <button name="botonMegusta" type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
+                        class="bi bi-heart"></i></button>
+                    <button name="botonComentario" type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
+                        class="bi bi-chat"></i></button>
                     </div>
                     <small class="text-muted"><i class="bi bi-bar-chart-line"> 100k</i></small>
                   </div>
@@ -290,10 +290,10 @@
                     <br><u>Etiquetas:</u> #carrera, #corredores, #agua, #masculino.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
-                          class="bi bi-heart"></i></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
-                          class="bi bi-chat"></i></button>
+                      <button name="botonMegusta" type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
+                        class="bi bi-heart"></i></button>
+                    <button name="botonComentario" type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
+                        class="bi bi-chat"></i></button>
                     </div>
                     <small class="text-muted"><i class="bi bi-bar-chart-line"> 400k</i></small>
                   </div>
@@ -313,10 +313,10 @@
                     <br><u>Etiquetas:</u> #carrera, #corredores, #agua, #dorsal, #masculino.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
-                          class="bi bi-heart"></i></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
-                          class="bi bi-chat"></i></button>
+                      <button name="botonMegusta" type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
+                        class="bi bi-heart"></i></button>
+                    <button name="botonComentario" type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
+                        class="bi bi-chat"></i></button>
                     </div>
                     <small class="text-muted"><i class="bi bi-bar-chart-line"> 900k</i></small>
                   </div>
@@ -336,10 +336,10 @@
                     <br><u>Etiquetas:</u> #carrera, #corredores, #agua, #masculino, #femenino.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
-                          class="bi bi-heart"></i></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
-                          class="bi bi-chat"></i></button>
+                      <button name="botonMegusta" type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
+                        class="bi bi-heart"></i></button>
+                    <button name="botonComentario" type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
+                        class="bi bi-chat"></i></button>
                     </div>
                     <small class="text-muted"><i class="bi bi-bar-chart-line"> 1,5M</i></small>
                   </div>
@@ -359,10 +359,10 @@
                     <br><u>Etiquetas:</u> #carrera, #corredores, #agua, #masculino, #femenino.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
-                          class="bi bi-heart"></i></button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
-                          class="bi bi-chat"></i></button>
+                      <button name="botonMegusta" type="button" class="btn btn-sm btn-outline-secondary">Me gustas <i
+                        class="bi bi-heart"></i></button>
+                    <button name="botonComentario" type="button" class="btn btn-sm btn-outline-secondary">Comentarios <i
+                        class="bi bi-chat"></i></button>
                     </div>
                     <small class="text-muted"><i class="bi bi-bar-chart-line"> 1,2M</i></small>
                   </div>
@@ -401,11 +401,11 @@
         </aside>
         <div id="carouselExampleIndicators" class="carousel slide">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            <button name="botonCarousel1" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
               aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            <button name="botonCarousel2" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
               aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            <button name="botonCarousel3" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
               aria-label="Slide 3"></button>
           </div>
           <div class="carousel-inner">
@@ -431,12 +431,12 @@
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          <button name="botonCarouselControlPrev" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          <button name="botonCarouselControlNext" class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
